@@ -1,0 +1,222 @@
+# Page settings
+
+baseURL = "https://johnoakuwa.nu/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+
+
+
+[params]
+    author = "John O'Akuwanu"
+    description = "John O'Akuwanu Online Dev Resume"
+
+
+    primaryColor = "#00264d"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "John O'Akuwanu"
+        tagline = "Student / Junior Software Engineer"
+        avatar = "avatar.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "London"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "074 972 33359"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "johnoakuwa123@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "https://johnoakuwa.nu/"
+
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "C / C# / C++"
+		[[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "Python / PHP"
+		[[params.skills.list.items]]
+        details = "JSON / XML"
+        [[params.skills.list.items]]
+        details = "SQLite/MySQL"
+		[[params.skills.list.items]]
+        details = "R"
+        [[params.skills.list.items]]
+        details = "Linux / Git"
+		[[params.skills.list.items]]
+        details = "Object-Oriented design"
+        [[params.skills.list.items]]
+        details = "Design and implement database structures"
+        [[params.skills.list.items]]
+        details = "Agile (Scrum / Kanban)"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+		[[params.skills.list.items]]
+        details = "Team Player"
+		[[params.skills.list.items]]
+        details = "Agile Learner"
+        [[params.skills.list.items]]
+        details = "Team player"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "BEng Computer Science"
+        university = "University of York"
+        dates = "2017 - 2021"
+
+
+
+
+
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Yoruba"
+        level = "Intermediate"
+
+
+
+
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "A meticulous and self-motivated individual with great enthusiasm and drive to learn and succeed. Hard-working and reliable with excellent organisational and management skills - these skills enable me the ability to prioritise a substantial workload. Successfully receives, comprehends and evaluates information quickly to complete any task efficiently. Passion for Machine Learning, Forecasting and Data Science. Has experience with Python and R for Data Science, Java, C#, C, C++ as well as familiarity with Linux, Windows and Git. Open to any opportunities for projects and research."
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Junior Software Engineer"
+        dates = "2019 - Present"
+        company = "SEGA"
+        details = "Incorporating real-world football rules, competitions and fixtures into a football manager game. Use C, C++, and XML to accurately develop, extend, improve and maintain the codebase - by adding new features and correcting bugs, workflows, and tools. Assimilating Head Researchers (HRs) and Assistant Researchers (ARs) from across the world and implementing complex rules and competitions within the game. Work across multiple platforms, including GitHub, Perforce, Helix ALM, and Microsoft Teams. Code to ensure we deliver the best performance and experience to our customer base. I formulate solutions for the present and plan for the future by implementing additional rules to accommodate future changes in various competitions."
+
+        [[params.experience.list]]
+        title = "Receptionist"
+        dates = "Summer 2018"
+        company = "London Silver Vaults"
+        details = ""
+		[[params.experience.list.items]]
+        details = "First class customer service to all staff and clients."
+        [[params.experience.list.items]]
+        details = "Coordinate and lead the transition of the client’s processes."
+        [[params.experience.list.items]]
+        details = "Record management and liaising with clients on a daily basis."
+
+        [[params.experience.list]]
+        title = "Adminstrative Assistant"
+        dates = "Summer 2017"
+        company = "Cloverleaf Christian Centre"
+        details = ""
+		[[params.experience.list.items]]
+        details = "Database management (Access and SQL)"
+        [[params.experience.list.items]]
+        details = "Improved the charity’s efficiency by creating macros to streamline day to day processes"
+
+
+    [params.projects]
+        enable = true
+		
+		[[params.projects.list]]
+        title = "FAACES"
+		meta = "Proprietary"
+        tagline = "Automated Aggregative Estimation Program (Forecasting Tool). Automates projections on company's dividends and profitability written in Rust by assimilating quantitative and qualitative data."
+		
+        [[params.projects.list]]
+        title = "Embedded Audio System Project"
+        meta = "University"
+        tagline = "The project was primarily a group task - consisting of four members. However, there was also the potential for individual extensions to the main body of the project, allowing each member to showcase personal skill set, creativity, and competency. This project involved programming an ARM LPC1768 ’MBED’ microcontroller, situated on top of a board of peripheral accessories, to generate and play audio on a user-selectable channel. I worked on the GUI using PyGTK and pySerial, and I devoted a large portion of my time working on the SD Card using CMSIS libraries and the implementation of the μ-law algorithm to compress audio files just before saving the audio and decompressing the saved file to produce audible output."
+
+        [[params.projects.list]]
+        title = "Basketball Game"
+        meta = "Open Source"
+        tagline = "Text-Based Simulation Basketball Role Playing Game. The game enables the user to take control of a basketball player where they can determine their position and their attributes. The program allows the user to play games in a regional high school basketball tournament; their pre-determined characteristics determine their success in the game."
+
+        [[params.projects.list]]
+        title = "Football Management Sim Game"
+        meta = "Open Source"
+        tagline = "The project is a complex football manager simulation game that was created using XML and C# using the MS Visual Studio. The program enables the user to take the role of a manager of a football team where they have the opportunity to determine the success of their team actively. The computation of various (player, team and managerial) data simulates real-life football scenarios - simulates results between football teams, fixtures, competitions, and player actions. Sigames' Football Manager game series inspired the project. The game only allows you to take control of the English league."
+		
+
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "https://github.com/JohnOAkuwanu"
+        title = "My GitHub"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "https://www.linkedin.com/in/john-o-98b65497/"
+        title = "LinkedIn"
+		[[params.social.list]]
+        icon = "fab fa-telegram"
+        url = "/John_OAkuwanu(CV).pdf"
+        title = "My CV"
+
+[params.footer]
+    copyright = ""
